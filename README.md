@@ -20,11 +20,11 @@ O objetivo do app é calcular através de um pequeno *game quiz* qual é o seu a
 
 Ao analisar repositórios genéricos, decidi elevar o nível deste projeto implementando tecnologias e padrões exigidos pelo mercado atual:
 
-- ⚛️ **Atualizado para Angular 17+ (Standalone Components):** Nenhuma dependência do antigo `NgModule`. Código ultra enxuto.
-- ⚡ **Control Flow Moderno:** Implementação das diretivas `@if` e `@for`, que são nativas e rodam com menor overhead de compilação.
-- 🎨 **Glassmorphism Premium Design:** Subjetividade visual refinada. O fundo interativo traz um efeito "blur" reativo (Backdrop) com uso escalável de variáveis CSS globais de Dark Theme.
-- 🧠 **Cálculo de Moda (Math/Logic):** Tratamento avançado de Arrays nativos (`reduce` e `filter`) para gerar a inferência estatística dos resultados em tempo real.
-- 🔍 **SEO & Metadata prontas:** O `index.html` já possui injeção nativa das tags de título em formato OpenGraph para garantir que o link gere previews de engajamento ao ser compartilhado no LinkedIn.
+-  **Atualizado para Angular 17+ (Standalone Components):** Nenhuma dependência do antigo `NgModule`. Código ultra enxuto.
+-  **Control Flow Moderno:** Implementação das diretivas `@if` e `@for`, que são nativas e rodam com menor overhead de compilação.
+-  **Glassmorphism Premium Design:** Subjetividade visual refinada. O fundo interativo traz um efeito "blur" reativo (Backdrop) com uso escalável de variáveis CSS globais de Dark Theme.
+-  **Cálculo de Moda (Math/Logic):** Tratamento avançado de Arrays nativos (`reduce` e `filter`) para gerar a inferência estatística dos resultados em tempo real.
+-  **SEO & Metadata prontas:** O `index.html` já possui injeção nativa das tags de título em formato OpenGraph para garantir que o link gere previews de engajamento ao ser compartilhado no LinkedIn.
 
 ## 🛠️ Como rodar o projeto localmente
 
@@ -42,4 +42,4 @@ ng serve
 ```
 
 ---
-Feito com 💡 e CSS puro.
+Feito por **Alisson da Silva Bernadino**
