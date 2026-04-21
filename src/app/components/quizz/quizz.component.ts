@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import quizz_questions from '../../../assets/data/quizz_questions.json';
 
 @Component({
   selector: 'app-quizz',
@@ -7,19 +8,37 @@ import { Component } from '@angular/core';
   templateUrl: './quizz.component.html',
   styleUrl: './quizz.component.css'
 })
-export class QuizzComponent {
-  title: string = 'Você seria um herói ou vilão?';
+export class QuizzComponent implements OnInit {
+  title: string = '';
   
-  questionSelected: any = {
-    question: 'Qual super-poder você escolheria?',
-    options: [
-      { name: 'Raios-Lasers' },
-      { name: 'Voar' },
-      { name: 'Explodir coisas' },
-      { name: 'Curar feridas' }
-    ]
-  };
-
+  questions: any;
+  questionSelected: any;
+  
+  answers: string[] = [];
+  answerSelected: string = '';
+  
+  questionIndex: number = 0;
+  questionMaxIndex: number = 0;
+  
   finished: boolean = false;
-  answerSelected: string = 'Você muito provavelmente seria um super Herói!';
+
+  constructor() {}
+
+  ngOnInit(): void {
+    if (quizz_questions) {
+      this.finished = false;
+      this.title = quizz_questions.title;
+
+      this.questions = quizz_questions.questions;
+      this.questionSelected = this.questions[this.questionIndex];
+
+      this.questionIndex = 0;
+      this.questionMaxIndex = this.questions.length;
+    }
+  }
+
+  // Placeholder para a próxima etapa (regras do jogo)
+  playerChoose(value: string) {
+    // will be implemented in the next branch
+  }
 }
