@@ -37,8 +37,19 @@ export class QuizzComponent implements OnInit {
     }
   }
 
-  // Placeholder para a próxima etapa (regras do jogo)
   playerChoose(value: string) {
-    // will be implemented in the next branch
+    this.answers.push(value);
+    this.nextStep();
+  }
+
+  nextStep() {
+    this.questionIndex += 1;
+
+    if (this.questionMaxIndex > this.questionIndex) {
+      this.questionSelected = this.questions[this.questionIndex];
+    } else {
+      // O cálculo real do resultado será implementado na próxima branch!
+      this.finished = true;
+    }
   }
 }
