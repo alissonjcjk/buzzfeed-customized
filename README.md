@@ -16,9 +16,7 @@ O objetivo do app é calcular através de um pequeno *game quiz* qual é o seu a
 
 *(Desenvolvido como projeto para aprimoramento de engenharia Frontend e Arquitetura Angular).*
 
-## ✨ Diferenciais ("Por que este clone é superior?")
-
-Ao analisar repositórios genéricos, decidi elevar o nível deste projeto implementando tecnologias e padrões exigidos pelo mercado atual:
+## ✨ Diferenciais 
 
 -  **Atualizado para Angular 17+ (Standalone Components):** Nenhuma dependência do antigo `NgModule`. Código ultra enxuto.
 -  **Control Flow Moderno:** Implementação das diretivas `@if` e `@for`, que são nativas e rodam com menor overhead de compilação.
