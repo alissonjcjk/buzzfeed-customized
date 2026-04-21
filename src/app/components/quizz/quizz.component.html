@@ -1,1 +1,31 @@
-<p>quizz works!</p>
+<div class="quizz-glass-container">
+
+  <div class="quizz-header">
+    <div class="logo-badge">🔥 QUIZZ</div>
+    <h1 class="quizz-title">{{ title }}</h1>
+  </div>
+
+  @if (!finished) {
+    <div class="quizz-content fade-in">
+      <div class="question-box">
+        <h2>{{ questionSelected.question }}</h2>
+      </div>
+
+      <div class="options-grid">
+        @for (option of questionSelected.options; track option.name) {
+          <button class="option-btn">
+            <span class="btn-text">{{ option.name }}</span>
+            <span class="btn-glow"></span>
+          </button>
+        }
+      </div>
+    </div>
+  } @else {
+    <div class="quizz-results fade-in-up">
+      <div class="result-badge">✨ SEU RESULTADO</div>
+      <h1 class="result-text">{{ answerSelected }}</h1>
+      <button class="restart-btn" onclick="window.location.reload()">Refazer Quizz</button>
+    </div>
+  }
+
+</div>
