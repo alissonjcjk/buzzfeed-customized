@@ -1,27 +1,45 @@
-# DevBuzzfeed
+<h1 align="center">
+  🔥 Buzzfeed Clone: Hero or Villain Quiz
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
-## Development server
+## 🚀 Sobre o Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é uma evolução completa do tradicional "Clone do Buzzfeed", recriado do absoluto zero com um foco extremo em **Performance Modernizada** e **Design Premium**. 
 
-## Code scaffolding
+O objetivo do app é calcular através de um pequeno *game quiz* qual é o seu arquétipo no mundo dos quadrinhos: Você seria um impetuoso herói ou um ardiloso vilão?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*(Desenvolvido como projeto para aprimoramento de engenharia Frontend e Arquitetura Angular).*
 
-## Build
+## ✨ Diferenciais ("Por que este clone é superior?")
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ao analisar repositórios genéricos, decidi elevar o nível deste projeto implementando tecnologias e padrões exigidos pelo mercado atual:
 
-## Running unit tests
+- ⚛️ **Atualizado para Angular 17+ (Standalone Components):** Nenhuma dependência do antigo `NgModule`. Código ultra enxuto.
+- ⚡ **Control Flow Moderno:** Implementação das diretivas `@if` e `@for`, que são nativas e rodam com menor overhead de compilação.
+- 🎨 **Glassmorphism Premium Design:** Subjetividade visual refinada. O fundo interativo traz um efeito "blur" reativo (Backdrop) com uso escalável de variáveis CSS globais de Dark Theme.
+- 🧠 **Cálculo de Moda (Math/Logic):** Tratamento avançado de Arrays nativos (`reduce` e `filter`) para gerar a inferência estatística dos resultados em tempo real.
+- 🔍 **SEO & Metadata prontas:** O `index.html` já possui injeção nativa das tags de título em formato OpenGraph para garantir que o link gere previews de engajamento ao ser compartilhado no LinkedIn.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Como rodar o projeto localmente
 
-## Running end-to-end tests
+1. Clone o repositório:
+```bash
+git clone https://github.com/SEU-USUARIO/buzzfeed-customized.git
+```
+2. Instale as dependências:
+```bash
+npm install
+```
+3. Rode o servidor de dev (disponível em `http://localhost:4200`):
+```bash
+ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+Feito com 💡 e CSS puro.
