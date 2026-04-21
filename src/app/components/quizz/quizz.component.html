@@ -13,7 +13,7 @@
 
       <div class="options-grid">
         @for (option of questionSelected.options; track option.name) {
-          <button class="option-btn">
+          <button class="option-btn" (click)="playerChoose(option.alias)">
             <span class="btn-text">{{ option.name }}</span>
             <span class="btn-glow"></span>
           </button>
